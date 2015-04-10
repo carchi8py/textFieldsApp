@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Outlets
+    @IBOutlet weak var zipField: UITextField!
+    @IBOutlet weak var moneyField: UITextField!
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var textSwitch: UISwitch!
+    
+    let zipDelegate = ZipCodeTextFieldDelegate()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.zipField.delegate = zipDelegate
     }
 
     override func didReceiveMemoryWarning() {
