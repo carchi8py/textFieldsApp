@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D130a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -58,15 +59,15 @@
                                 <exclude reference="hT3-jG-l4N"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="0PP-Jo-2hE"/>
-                                <exclude reference="jFL-3a-YzS"/>
-                                <exclude reference="n35-Oc-D3a"/>
-                                <exclude reference="eQF-Sb-RAC"/>
-                                <exclude reference="ydR-NL-MWH"/>
-                                <exclude reference="yt3-7b-Z5H"/>
                                 <exclude reference="Fac-YL-mLC"/>
                                 <exclude reference="kb8-cG-mSa"/>
                                 <exclude reference="nWH-Zc-nrE"/>
+                                <exclude reference="eQF-Sb-RAC"/>
+                                <exclude reference="ydR-NL-MWH"/>
+                                <exclude reference="yt3-7b-Z5H"/>
+                                <exclude reference="0PP-Jo-2hE"/>
+                                <exclude reference="jFL-3a-YzS"/>
+                                <exclude reference="n35-Oc-D3a"/>
                                 <exclude reference="fSd-VE-UW2"/>
                                 <exclude reference="wxY-Ni-ZFw"/>
                             </mask>
@@ -79,15 +80,15 @@
                                 <include reference="hT3-jG-l4N"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="0PP-Jo-2hE"/>
-                                <include reference="jFL-3a-YzS"/>
-                                <include reference="n35-Oc-D3a"/>
-                                <include reference="eQF-Sb-RAC"/>
-                                <include reference="ydR-NL-MWH"/>
-                                <include reference="yt3-7b-Z5H"/>
                                 <include reference="Fac-YL-mLC"/>
                                 <include reference="kb8-cG-mSa"/>
                                 <include reference="nWH-Zc-nrE"/>
+                                <include reference="eQF-Sb-RAC"/>
+                                <include reference="ydR-NL-MWH"/>
+                                <include reference="yt3-7b-Z5H"/>
+                                <include reference="0PP-Jo-2hE"/>
+                                <include reference="jFL-3a-YzS"/>
+                                <include reference="n35-Oc-D3a"/>
                                 <include reference="fSd-VE-UW2"/>
                                 <include reference="wxY-Ni-ZFw"/>
                             </mask>
