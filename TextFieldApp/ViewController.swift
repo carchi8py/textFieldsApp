@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     // Outlets
     @IBOutlet weak var zipField: UITextField!
@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         
         self.zipField.delegate = zipDelegate
         self.moneyField.delegate = moneyDelegate
+        self.textField.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +32,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool
+    {
+        if (textSwitch.on) {
+            textField.text = ""
+            return false
+        }
+        return true
+    }
 }
 
