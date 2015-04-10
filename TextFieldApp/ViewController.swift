@@ -17,11 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var textSwitch: UISwitch!
     
     let zipDelegate = ZipCodeTextFieldDelegate()
+    let moneyDelegate = moneyTextFieldDelegate()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.zipField.delegate = zipDelegate
+        self.moneyField.delegate = moneyDelegate
     }
 
     override func didReceiveMemoryWarning() {

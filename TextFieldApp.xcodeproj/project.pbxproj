@@ -14,6 +14,7 @@
 		2762631E1AD76EAA00D163A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2762631C1AD76EAA00D163A8 /* LaunchScreen.xib */; };
 		2762632A1AD76EAA00D163A8 /* TextFieldAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276263291AD76EAA00D163A8 /* TextFieldAppTests.swift */; };
 		27F2B5E61AD7774A003FBFB2 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2B5E51AD7774A003FBFB2 /* ZipCodeTextFieldDelegate.swift */; };
+		27F2B5EA1AD77B2E003FBFB2 /* moneyTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2B5E91AD77B2E003FBFB2 /* moneyTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		276263281AD76EAA00D163A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276263291AD76EAA00D163A8 /* TextFieldAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAppTests.swift; sourceTree = "<group>"; };
 		27F2B5E51AD7774A003FBFB2 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		27F2B5E91AD77B2E003FBFB2 /* moneyTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moneyTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				27F2B5E51AD7774A003FBFB2 /* ZipCodeTextFieldDelegate.swift */,
+				27F2B5E91AD77B2E003FBFB2 /* moneyTextFieldDelegate.swift */,
 			);
 			name = "Text Field Delegates";
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				276263161AD76EAA00D163A8 /* ViewController.swift in Sources */,
 				27F2B5E61AD7774A003FBFB2 /* ZipCodeTextFieldDelegate.swift in Sources */,
 				276263141AD76EAA00D163A8 /* AppDelegate.swift in Sources */,
+				27F2B5EA1AD77B2E003FBFB2 /* moneyTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

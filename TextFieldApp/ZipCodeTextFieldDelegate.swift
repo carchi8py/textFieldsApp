@@ -16,4 +16,9 @@ class ZipCodeTextFieldDelegate : NSObject, UITextFieldDelegate {
         return newLength <= 5
     }
     
+    func  textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
 }
